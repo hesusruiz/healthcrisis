@@ -146,6 +146,10 @@ A citizen app sends health condition messages/reports to the government. The col
 * **(TBD - Call out to the community for a solution)** Event/server for the reception of citizen health messages and for AI/analysis to government (for crisis mgt purpose only). (concern: security/performance/non-hackability) (e.g. IBM Z , https://www.ibm.com/it-infrastructure/z/hardware)
 * **(TBD - Call out to the community for a solution)** Secure mechanism/software (library) for exchange of decryption keys (between citizens and government/authorities)
 * **(TBD - Call out to the community for a solution)** OpenId SDK/eIDAS eID identification request API
+* For connecting to eIDAS, it can be used the **Keyrock IdM component of FIWARE** (https://fiware-idm.readthedocs.io/en/7.4.0/eidas/#architecture). FIWARE is the foundation that were the initial developers and currently maintain the CEF Context Broker (https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Context+Broker). The architecture is the following
+
+![](/eidas-arch.png)
+
 * AI SDK/API, https://github.com/Tribler/distributed-ai-kernel, by the team of https://www.blockchain-lab.org/
 * Markers: To be able to work with markers project will create it’s own open-source library which is able to a) create markers and b) decode data in markers. This library will be based on work on done in Horizon2020 funded TagItSmart project and use following opensource libraries:
   * LibDtmx
